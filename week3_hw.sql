@@ -1,3 +1,5 @@
+-- Week 3 assignment 2 - Monthly Active User 
+
 SELECT ts_month, COUNT(DISTINCT u.userid)
 FROM raw_data.user_session_channel u
 JOIN (
